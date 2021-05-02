@@ -4,5 +4,8 @@ public class CourseManager {
 		System.out.println("Kursa git: " + course.name);
 		
 	}
+	public void register(Course course) {
+		System.out.println("Kayıt ol: " + course.name);
+	}
 
 }
